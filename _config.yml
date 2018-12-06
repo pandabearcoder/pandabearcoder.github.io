@@ -1,0 +1,43 @@
+# Site settings
+title_left    : "pandabear"
+title_right   : "coder"
+description   : "A collection of articles, links, blogposts that are fun to read!"
+keywords      : "technology, goodread, resources, articles"
+url           : "https://pandabearcoder.github.io"
+baseurl       : ""
+cover         : ""
+
+google_analytics  : ""
+twitter_username  : "pandabearcoder"
+comments_enabled  : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "pandabearcoder"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
