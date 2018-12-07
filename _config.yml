@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "pandabear"
 title_right   : "coder"
-description   : "A collection of articles, links, blogposts that are fun to read!"
+description   : "Code, Read and have Fun!"
 keywords      : "technology, goodread, resources, articles"
 url           : "https://pandabearcoder.github.io"
 baseurl       : ""
