@@ -8,7 +8,6 @@ baseurl       : ""
 cover         : ""
 
 google_analytics  : "UA-130568392-1"
-twitter_username  : "pandabearcoder"
 comments_enabled  : false
 
 # Build settings
